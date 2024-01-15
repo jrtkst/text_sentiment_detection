@@ -5,8 +5,6 @@ import re
 from nltk.corpus import stopwords
 # nltk.download('stopwords')
 from nltk.stem.porter import PorterStemmer
-# from sklearn.feature_extraction.text import TfidfVectorizer
-# from sklearn.feature_extraction.text import CountVectorizer
 import torch
 import torch.nn as nn
 import pickle
