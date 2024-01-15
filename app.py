@@ -55,8 +55,8 @@ def preprocessing(text):
     return rev
 
 # Load model
-cv = pickle.load(open('D:/kuliah/FILE KODINGAN RANDOM/NLP/Sentiment_LSTM/app/cv_model.sav', 'rb'))
-model_load = torch.load('D:/kuliah/FILE KODINGAN RANDOM/NLP/Sentiment_LSTM/app/LSTM_sentiment_model.pth')
+cv = pickle.load(open('PATH_TO cv_model.sav', 'rb'))
+model_load = torch.load('PATH_TO LSTM_sentiment_model.pth')
 LSTM_net.load_state_dict(model_load['model_state_dict'])
 
 # Inference
